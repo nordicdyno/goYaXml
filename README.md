@@ -30,7 +30,15 @@ go get github.com/nordicdyno/goYaXml
 Usage
 ---------
 
-    yaFetch := YaXML{"com", "your_login_here", "your_key_here"}
-    yr, _ := yaFetch.Query("uri_safe_query_string_here")
+    import "fmt"
+    import "github.com/nordicdyno/goYaXml"
+    
+    yaFetchCfg := yaXML.Config("com", "your_login_here", "your_key_here")
+    yResultsXML, err := yaFetchCfg.Query("safe_uri_escaped_query_string_here")
+    if err != nil {
+        panic(err)
+    }
+    fmt.Println(yResultsXML)
+
 
 

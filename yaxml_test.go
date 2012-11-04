@@ -1,7 +1,8 @@
-package goyaxml
+package yaXML
 
 import "io/ioutil"
 import "testing"
+import "os"
 
 func check(e error) {
 	if e != nil {
@@ -28,10 +29,16 @@ func TestParse(t *testing.T) {
 	}
 }
 
-// developer's test, skip it
-func _TestQuery(t *testing.T) {
-	yaFetch := YaXML{"com", "your_login_here", "your_key_here"}
-	yr, _ := yaFetch.Query("sex")
+func TestQuery(t *testing.T) {
+	// developer's test, skip it
+	if len(os.Getenv("DEVELOPER_TESTS")) == 0 {
+		return
+	}
+	yaFetch := Config("com", os.Getenv("YA_XML_LOGIN"), os.Getenv("YA_XML_KEY"))
+	yr, err := yaFetch.Query("sex")
+	if err != nil {
+		t.Errorf("Error %s", err)
+	}
 	gotDocsCount := len(yr.data.Docs)
 	if gotDocsCount != 10 {
 		t.Errorf("Fetch documents count is %d, but must be 10", gotDocsCount)

@@ -1,4 +1,4 @@
-package goYaXml
+package yaXML
 
 import (
 	"encoding/xml"
@@ -10,7 +10,6 @@ import (
 
 type YandexError struct {
 	YaErr YandexErrorNode `xml:"response>error"`
-	err   error
 }
 type YandexErrorNode struct {
 	Code string `xml:"code,attr"`
@@ -34,8 +33,8 @@ type ResultYSDoc struct {
 	Size int    `xml:"size"`
 }
 
-// YaXML – config for Query function
-type YaXML struct {
+// CfgYaXML – config for Query function
+type CfgYaXML struct {
 	domain string // ru, com,
 	user   string
 	key    string
@@ -46,10 +45,18 @@ func Parse(xmlData []byte) (ys YandexSearch, err error) {
 	return
 }
 
+func Config(domain, user, key string) (cfg CfgYaXML) {
+	cfg.domain = domain
+	cfg.user = user
+	cfg.key = key
+	return
+}
+
 var YaURIprefix = "http://xmlsearch.yandex."
 
 // Query - send query to xml yandex search, fetch & parse result
-func (cfg *YaXML) Query(query string) (yr YandexResult, ye YandexError) {
+func (cfg *CfgYaXML) Query(query string) (yr YandexResult, err error) {
+	var ye YandexError
 	urlParts := []string{
 		YaURIprefix, cfg.domain, "/xmlsearch?user=", cfg.user,
 		"&key=", cfg.key, "&query=", query,
@@ -60,33 +67,37 @@ func (cfg *YaXML) Query(query string) (yr YandexResult, ye YandexError) {
 
 	resp, err := http.Get(url)
 	if err != nil {
-		ye.err = err
+		//ye.err = err
 		return
 	}
 
 	respData, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		ye.err = err
+		//ye.err = err
 		return
 	}
 
 	yr.httpCode = resp.Status
 	yr.httpSize = len(respData)
 	if resp.Status != "200 OK" {
-		ye.err = fmt.Errorf("response status is %q", resp.Status)
+		err = fmt.Errorf("response status is %s", resp.Status)
 		return
 	}
 
 	// Check Yandex error response
-	ye.err = xml.Unmarshal(respData, &ye)
-	if (ye.err != nil) || (len(ye.YaErr.Code) > 0) {
+	err = xml.Unmarshal(respData, &ye)
+	if err != nil {
+		return
+	}
+	if len(ye.YaErr.Code) > 0 {
+		err = fmt.Errorf("Yandex.XML returned code: %s, text: %s",
+			ye.YaErr.Code, ye.YaErr.Text)
 		return
 	}
 
 	var ys YandexSearch
 	ys, err = Parse(respData)
-	if ye.err != nil {
-		ye.err = err
+	if err != nil {
 		return
 	}
 	yr.data = ys
