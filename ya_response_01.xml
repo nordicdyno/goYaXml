@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yandexsearch version="1.0">
+  <request>
+    <query>DME</query>
+    <page>0</page>
+    <sortby order="descending" priority="no">rlv</sortby>
+    <maxpassages></maxpassages>
+    <groupings>
+      <groupby attr="d" mode="deep" groups-on-page="10" docs-in-group="1" curcateg="-1" />
+    </groupings>
+  </request>
+  <response date="20121103T123327">
+    <reqid>1351946006985444-1458605296838325888247485-8-018-XML</reqid>
+    <wordstat>dme: 7411480</wordstat>
+    <found priority="phrase">7191416</found>
+    <found priority="strict">7191416</found>
+    <found priority="all">7191416</found>
+    <found-human>Нашлось 7 млн ответов</found-human>
+    <results>
+      <grouping attr="d" mode="deep" groups-on-page="10" docs-in-group="1" curcateg="-1">
+        <found priority="phrase">57994</found>
+        <found priority="strict">57994</found>
+        <found priority="all">57994</found>
+        <found-docs priority="phrase">7191334</found-docs>
+        <found-docs priority="strict">7191334</found-docs>
+        <found-docs priority="all">7191334</found-docs>
+        <found-docs-human>нашёл 7 млн ответов</found-docs-human>
+        <page first="1" last="10">0</page>
+        <group>
+          <categ attr="d" name="UngroupVital66.ru" />
+          <doccount>2</doccount>
+          <relevance priority="all" />
+          <doc id="Z35AAA4CD2BA2C8BE">
+            <relevance priority="phrase" />
+            <url>http://www.domodedovo.ru/</url>
+            <domain>www.domodedovo.ru</domain>
+            <title>Московский аэропорт Домодедово</title>
+            <modtime>20061029T030000</modtime>
+            <size>21284</size>
+            <charset>windows-1251</charset>
+            <passages>
+              <passage>Предлагаем Вашему вниманию игру 
+              <hlword>DME</hlword>Live. Если Вы стали очевидцем противоправных действий или владеете информацией об угрозе безопасности пассажиров или аэропорта...</passage>
+            </passages>
+            <properties>&lt;_PassagesType&gt;0&lt;/_PassagesType&gt;
+            <lang>ru</lang></properties>
+            <mime-type>text/html</mime-type>
+            <saved-copy-url>http://hghltd.yandex.net/yandbtm?text=DME&amp;url=http%3A%2F%2Fwww.domodedovo.ru%2F&amp;fmode=inject&amp;mime=html&amp;l10n=ru&amp;sign=a3c02c7418a8542a0c9df550501d429a&amp;keyno=0</saved-copy-url>
+          </doc>
+        </group>
+        <group>
+          <categ attr="d" name="dme.net" />
+          <doccount>1881</doccount>
+          <relevance priority="all" />
+          <doc id="Z0426452EA14998A2">
+            <relevance priority="phrase" />
+            <url>http://www.dme.net/</url>
+            <domain>www.dme.net</domain>
+            <title>
+            <hlword>DME</hlword>| Injection Molding Machine Parts Company | Plastic Injections Part...</title>
+            <modtime>20081009T074517</modtime>
+            <size>15507</size>
+            <charset>utf-8</charset>
+            <passages>
+              <passage>
+              <hlword>DME</hlword>is the world leader in injection molding machine parts and other plastic molding technologies.</passage>
+            </passages>
+            <properties>&lt;_PassagesType&gt;0&lt;/_PassagesType&gt;
+            <lang>en</lang></properties>
+            <mime-type>text/html</mime-type>
+            <saved-copy-url>http://hghltd.yandex.net/yandbtm?text=DME&amp;url=http%3A%2F%2Fwww.dme.net%2F&amp;fmode=inject&amp;mime=html&amp;l10n=ru&amp;sign=d6878f49c6f841dbd2867a8f32452d84&amp;keyno=0</saved-copy-url>
+          </doc>
+        </group>
+        <group>
+          <categ attr="d" name="wikipedia.org" />
+          <doccount>151</doccount>
+          <relevance priority="all" />
+          <doc id="ZB098F671115B3B6C">
+            <relevance priority="phrase" />
+            <url>http://ru.wikipedia.org/wiki/DME</url>
+            <domain>ru.wikipedia.org</domain>
+            <title>
+            <hlword>DME</hlword>— Википедия</title>
+            <modtime>20070610T014018</modtime>
+            <size>9476</size>
+            <charset>utf-8</charset>
+            <passages>
+              <passage>
+              <hlword>DME</hlword>(англ. 
+              <hlword>Distance</hlword>
+              <hlword>Measuring</hlword>
+              <hlword>Equipment</hlword>) — всенаправленный дальномерный радиомаяк. Оборудование, определяющее расстояние от воздушного судна до наземной станции.</passage>
+            </passages>
+            <properties>&lt;_PassagesType&gt;0&lt;/_PassagesType&gt;
+            <lang>ru</lang></properties>
+            <mime-type>text/html</mime-type>
+            <saved-copy-url>http://hghltd.yandex.net/yandbtm?text=DME&amp;url=http%3A%2F%2Fru.wikipedia.org%2Fwiki%2FDME&amp;fmode=inject&amp;mime=html&amp;l10n=ru&amp;sign=a3cbb2f6a17e400ba42d358b62a2bbea&amp;keyno=0</saved-copy-url>
+          </doc>
+        </group>
+        <group>
+          <categ attr="d" name="avsim.su" />
+          <doccount>1209</doccount>
+          <relevance priority="all" />
+          <doc id="Z2403F80747CC9582">
+            <relevance priority="phrase" />
+            <url>http://www.avsim.su/wiki/DME</url>
+            <domain>www.avsim.su</domain>
+            <title>
+            <hlword>DME</hlword>— База знаний</title>
+            <modtime>20081225T020225</modtime>
+            <size>9581</size>
+            <charset>utf-8</charset>
+            <passages>
+              <passage>Всенаправленный дальномерный радиомаяк (сокр.РМД, англ. 
+              <hlword>Distance</hlword>
+              <hlword>Measuring</hlword>
+              <hlword>Equipment</hlword>сокр. 
+              <hlword>DME</hlword>) — вид радионавигационной системы...</passage>
+            </passages>
+            <properties>&lt;_PassagesType&gt;0&lt;/_PassagesType&gt;
+            <lang>ru</lang></properties>
+            <mime-type>text/html</mime-type>
+            <saved-copy-url>http://hghltd.yandex.net/yandbtm?text=DME&amp;url=http%3A%2F%2Fwww.avsim.su%2Fwiki%2FDME&amp;fmode=inject&amp;mime=html&amp;l10n=ru&amp;sign=9ed1d566bf6f000ec6f540c2cc8e6698&amp;keyno=0</saved-copy-url>
+          </doc>
+        </group>
+        <group>
+          <categ attr="d" name="dme.com.ua" />
+          <doccount>151</doccount>
+          <relevance priority="all" />
+          <doc id="ZF592E42538ED62A7">
+            <relevance priority="phrase" />
+            <url>http://dme.com.ua/</url>
+            <domain>dme.com.ua</domain>
+            <title>
+              <hlword>DME</hlword>
+            </title>
+            <modtime>20090302T070416</modtime>
+            <size>3871</size>
+            <charset>windows-1251</charset>
+            <passages>
+              <passage>Наше предприятие - ООО «Би Питрон Солид» с 2005 года являлось официальным представителем компании 
+              <hlword>DME</hlword>Europe C.V.B.A. на Украине.</passage>
+            </passages>
+            <properties>&lt;_PassagesType&gt;0&lt;/_PassagesType&gt;
+            <lang>ru</lang></properties>
+            <mime-type>text/html</mime-type>
+            <saved-copy-url>http://hghltd.yandex.net/yandbtm?text=DME&amp;url=http%3A%2F%2Fdme.com.ua%2F&amp;fmode=inject&amp;mime=html&amp;l10n=ru&amp;sign=aef1116fe7bc8f412e58a8f1d55a8adb&amp;keyno=0</saved-copy-url>
+          </doc>
+        </group>
+        <group>
+          <categ attr="d" name="en.wikipedia.org" />
+          <doccount>348</doccount>
+          <relevance priority="all" />
+          <doc id="Z8422D6300C289225">
+            <relevance priority="phrase" />
+            <url>http://en.wikipedia.org/wiki/Distance_measuring_equipment</url>
+            <domain>en.wikipedia.org</domain>
+            <title>
+            <hlword>Distance</hlword>
+            <hlword>measuring</hlword>
+            <hlword>equipment</hlword>- Wikipedia, the free encyclopedia</title>
+            <headline>
+            <hlword>Distance</hlword>
+            <hlword>measuring</hlword>
+            <hlword>equipment</hlword>(
+            <hlword>DME</hlword>) is a transponder-based radio navigation technology that measures slant range distance by timing the propagation delay of VHF or UHF radio signals.</headline>
+            <modtime>20071213T030000</modtime>
+            <size>14926</size>
+            <charset>utf-8</charset>
+            <properties>&lt;_PassagesType&gt;0&lt;/_PassagesType&gt;
+            <lang>en</lang></properties>
+            <mime-type>text/html</mime-type>
+            <saved-copy-url>http://hghltd.yandex.net/yandbtm?text=DME&amp;url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDistance_measuring_equipment&amp;fmode=inject&amp;mime=html&amp;l10n=ru&amp;sign=70738f9e5fc16273e0bd574a63d5b699&amp;keyno=0</saved-copy-url>
+          </doc>
+        </group>
+        <group>
+          <categ attr="d" name="tesis.com.ru" />
+          <doccount>639</doccount>
+          <relevance priority="all" />
+          <doc id="Z10A277D204E98D70">
+            <relevance priority="phrase" />
+            <url>http://www.tesis.com.ru/plastics/</url>
+            <domain>www.tesis.com.ru</domain>
+            <title>Оборудование компании 
+            <hlword>DME</hlword>| ТЕСИС</title>
+            <modtime>20110407T210959</modtime>
+            <size>0</size>
+            <charset>windows-1251</charset>
+            <passages>
+              <passage>Мы выполняем поставку продукции D-M-E с центрального европейского склада в Бельгии . Узнать о: стоимости продукции 
+              <hlword>DME</hlword>, порядке ее заказа, сроках поставки и т.д.</passage>
+            </passages>
+            <properties>&lt;_PassagesType&gt;0&lt;/_PassagesType&gt;
+            <lang>ru</lang></properties>
+            <mime-type>text/html</mime-type>
+            <saved-copy-url>http://hghltd.yandex.net/yandbtm?text=DME&amp;url=http%3A%2F%2Fwww.tesis.com.ru%2Fplastics%2F&amp;fmode=inject&amp;mime=html&amp;l10n=ru&amp;sign=8fbf799fdf143bf0ad5519e27824832d&amp;keyno=0</saved-copy-url>
+          </doc>
+        </group>
+        <group>
+          <categ attr="d" name="ixbt.com" />
+          <doccount>16</doccount>
+          <relevance priority="all" />
+          <doc id="ZFCC409A633006898">
+            <relevance priority="phrase" />
+            <url>http://www.ixbt.com/multimedia/digitalway-mpio-dme.shtml</url>
+            <domain>www.ixbt.com</domain>
+            <title>MP3-плеер digit@lway MPIO 
+            <hlword>DME</hlword></title>
+            <modtime>20061120T082227</modtime>
+            <size>22796</size>
+            <charset>windows-1251</charset>
+            <passages>
+              <passage>MP3-плеер digit@lway MPIO 
+              <hlword>DME</hlword>. Итак, сегодня у нас на повестке дня очередной плеер линейки MPIO.</passage>
+            </passages>
+            <properties>&lt;_PassagesType&gt;0&lt;/_PassagesType&gt;
+            <lang>ru</lang></properties>
+            <mime-type>text/html</mime-type>
+            <saved-copy-url>http://hghltd.yandex.net/yandbtm?text=DME&amp;url=http%3A%2F%2Fwww.ixbt.com%2Fmultimedia%2Fdigitalway-mpio-dme.shtml&amp;fmode=inject&amp;mime=html&amp;l10n=ru&amp;sign=76a7bb2719633c8de24336bd6f0e7e3c&amp;keyno=0</saved-copy-url>
+          </doc>
+        </group>
+        <group>
+          <categ attr="d" name="academic.ru" />
+          <doccount>28</doccount>
+          <relevance priority="all" />
+          <doc id="ZF416AE946F40C008">
+            <relevance priority="phrase" />
+            <url>http://dic.academic.ru/dic.nsf/eng_rus/379860/DME</url>
+            <domain>dic.academic.ru</domain>
+            <title>
+              <hlword>DME</hlword>
+            </title>
+            <modtime>20100916T045545</modtime>
+            <size>7340</size>
+            <charset>utf-8</charset>
+            <passages>
+              <passage>
+              <hlword>DME</hlword>— 
+              <hlword>DME</hlword>: 
+              <hlword>DME</hlword>один из режимов работы с памятью в технологии AGP; 
+              <hlword>DME</hlword>(англ. 
+              <hlword>Distance</hlword>
+              <hlword>Measuring</hlword>
+              <hlword>Equipment</hlword>) всенаправленный дальномерный радиомаяк.</passage>
+            </passages>
+            <properties>&lt;_PassagesType&gt;0&lt;/_PassagesType&gt;
+            <lang>ru</lang></properties>
+            <mime-type>text/html</mime-type>
+            <saved-copy-url>http://hghltd.yandex.net/yandbtm?text=DME&amp;url=http%3A%2F%2Fdic.academic.ru%2Fdic.nsf%2Feng_rus%2F379860%2FDME&amp;fmode=inject&amp;mime=html&amp;l10n=ru&amp;sign=828a530de987e6dff6da840331b5050d&amp;keyno=0</saved-copy-url>
+          </doc>
+        </group>
+        <group>
+          <categ attr="d" name="dmeeu.com" />
+          <doccount>70</doccount>
+          <relevance priority="all" />
+          <doc id="ZEB1B79DB5FD2C12E">
+            <relevance priority="phrase" />
+            <url>http://www.dmeeu.com/</url>
+            <domain>www.dmeeu.com</domain>
+            <title>Главная • 
+            <hlword>DME</hlword>Europe</title>
+            <modtime>20080912T110118</modtime>
+            <size>0</size>
+            <charset>windows-1251</charset>
+            <passages>
+              <passage>Компания 
+              <hlword>DME</hlword>Europe больше прежнего предоставляет наилучшую стоимость форм &amp; компонентов, горячих канальных систем, штампов и полировки.</passage>
+            </passages>
+            <properties>&lt;_PassagesType&gt;0&lt;/_PassagesType&gt;
+            <lang>ru</lang></properties>
+            <mime-type>text/html</mime-type>
+            <saved-copy-url>http://hghltd.yandex.net/yandbtm?text=DME&amp;url=http%3A%2F%2Fwww.dmeeu.com%2F&amp;fmode=inject&amp;mime=html&amp;l10n=ru&amp;sign=3090fd7088023c9b3f61f69f3505941b&amp;keyno=0</saved-copy-url>
+          </doc>
+        </group>
+      </grouping>
+    </results>
+  </response>
+</yandexsearch>
